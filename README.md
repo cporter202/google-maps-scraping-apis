@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero.svg" alt="Google Maps Scraping APIs — 217 verified actors for local leads, reviews, and place data" width="100%" />
+<img src="./assets/hero.png" alt="Google Maps Scraping APIs — 217 verified actors for local leads, reviews, and place data" width="100%" />
 
 <br />
 
