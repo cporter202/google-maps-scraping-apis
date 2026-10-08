@@ -1,26 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="0.55" stop-color="#131a35"/>
       <stop offset="1" stop-color="#1e1b4b"/>
     </linearGradient>
-    <radialGradient id="pin" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#ef4444"/>
-      <stop offset="1" stop-color="#b91c1c"/>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="pin" cx="0.5" cy="0.42" r="0.6">
+      <stop offset="0" stop-color="#f87171"/>
+      <stop offset="1" stop-color="#dc2626"/>
     </radialGradient>
   </defs>
-  <rect width="1280" height="400" fill="url(#bg)"/>
-  <g opacity="0.15" stroke="#8b5cf6" stroke-width="1.5" fill="none">
-    <path d="M-20,320 L200,300 L420,330 L640,290 L860,320 L1080,300 L1300,330"/>
-    <path d="M-20,340 L200,325 L420,350 L640,315 L860,345 L1080,325 L1300,350"/>
-    <circle cx="640" cy="180" r="120" fill="none"/>
-    <circle cx="640" cy="180" r="80" fill="none"/>
+  <rect width="1280" height="420" fill="url(#bg)"/>
+  <circle cx="640" cy="170" r="260" fill="url(#glow)"/>
+  <g opacity="0.18" stroke="#8b5cf6" stroke-width="1.5" fill="none">
+    <path d="M-20,330 L180,310 L400,340 L620,300 L840,330 L1060,310 L1300,340"/>
+    <path d="M-20,355 L180,340 L400,362 L620,330 L840,355 L1060,340 L1300,362"/>
+    <path d="M-20,378 L180,368 L400,385 L620,360 L840,378 L1060,368 L1300,385"/>
+    <circle cx="200" cy="120" r="90" fill="none"/>
+    <circle cx="200" cy="120" r="55" fill="none"/>
+    <circle cx="1080" cy="120" r="90" fill="none"/>
+    <circle cx="1080" cy="120" r="55" fill="none"/>
   </g>
-  <g transform="translate(640,150)">
-    <path d="M0,-70 C-38,-70 -62,-40 -62,-8 C-62,30 0,78 0,78 C0,78 62,30 62,-8 C62,-40 38,-70 0,-70 Z" fill="url(#pin)"/>
-    <circle cx="0" cy="-12" r="24" fill="#0f172a"/>
-    <circle cx="0" cy="-12" r="24" fill="none" stroke="#ffffff" stroke-width="4" opacity="0.9"/>
+  <g opacity="0.9">
+    <g transform="translate(180,300) scale(0.55)">
+      <path d="M0,-70 C-38,-70 -62,-40 -62,-8 C-62,30 0,78 0,78 C0,78 62,30 62,-8 C62,-40 38,-70 0,-70 Z" fill="url(#pin)"/>
+      <circle cx="0" cy="-12" r="22" fill="#0b1220"/>
+    </g>
+    <g transform="translate(1100,300) scale(0.55)">
+      <path d="M0,-70 C-38,-70 -62,-40 -62,-8 C-62,30 0,78 0,78 C0,78 62,30 62,-8 C62,-40 38,-70 0,-70 Z" fill="url(#pin)"/>
+      <circle cx="0" cy="-12" r="22" fill="#0b1220"/>
+    </g>
+    <g transform="translate(640,165)">
+      <path d="M0,-78 C-44,-78 -70,-44 -70,-8 C-70,34 0,88 0,88 C0,88 70,34 70,-8 C70,-44 44,-78 0,-78 Z" fill="url(#pin)"/>
+      <circle cx="0" cy="-12" r="26" fill="#0b1220"/>
+      <circle cx="0" cy="-12" r="26" fill="none" stroke="#ffffff" stroke-width="5" opacity="0.95"/>
+    </g>
   </g>
-  <text x="640" y="285" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="bold" fill="#ffffff">Google Maps Scraping APIs</text>
-  <text x="640" y="330" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#a5b4fc">Local business data, reviews &amp; lead lists — ready-to-run actors</text>
+  <text x="640" y="300" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="bold" fill="#ffffff" letter-spacing="1">Google Maps Scraping APIs</text>
+  <text x="640" y="345" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#a5b4fc">217 verified actors · local leads · reviews · place data — ready to run</text>
+  <text x="640" y="392" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#64748b" letter-spacing="3">POWERED BY APIFY</text>
 </svg>
