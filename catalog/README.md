@@ -12,6 +12,7 @@
 | [Google Maps Scraper](https://apify.com/compass/crawler-google-places?fpr=p2hrc6) | Extract data from thousands of Google Maps locations and businesses, including reviews, reviewer details, images, contact info, including full name, email, and job title, opening hours, prices & more.... |
 | [Google Maps Scraper - Businesses, Phones, Ratings](https://apify.com/thirdwatch/google-maps-scraper?fpr=p2hrc6) | Scrape Google Maps businesses: name, address, phone, website, rating, categories, GPS coordinates, opening hours. Search any query. Pure HTTP, no browser. Fast and cheap at 256MB. |
 | [Google Maps Scraper ✅ $1.5/1k places](https://apify.com/x_guru/google-maps-scraper?fpr=p2hrc6) | Scrape Google Maps places from $1.5/1k results. Get business names, addresses, phones, websites, ratings, reviews, images, opening hours, GPS coordinates, categories, Place IDs, and optional public... |
+| [Local Lead Finder](https://apimesa.com) | Find real local businesses for any trade in any city — names, addresses, phones, and websites pulled live from OpenStreetMap data. |
 
 <details>
 <summary><strong>⭐ Reviews scrapers (103)</strong> — click to expand</summary>
