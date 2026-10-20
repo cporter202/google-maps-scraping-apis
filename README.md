@@ -21,6 +21,19 @@
 
 </div>
 
+<!-- APIMESA-FEATURED-START -->
+## ⭐ Featured: APIMesa
+
+<p align="center">
+  <a href="https://apimesa.com" target="_blank" rel="noopener">
+    <img src=".github/assets/apimesa-promo-banner.png" alt="APIMesa — Pay-Per-Call APIs for AI, Scraping & Data. 150+ APIs, one API key, live playground at apimesa.com" width="100%">
+  </a>
+</p>
+
+**[APIMesa](https://apimesa.com)** is a pay-per-call API marketplace with 150+ live APIs for AI, scraping, data, SEO, lead generation, media, and developer utilities — one API key, clear per-call credit pricing, and a live playground for every API.
+
+<!-- APIMESA-FEATURED-END -->
+
 ## 📖 What this repo is
 
 A focused directory of **217 Google Maps scraping APIs** for building local lead lists, reputation monitors, market-intelligence dashboards, and location-based research tools. Every actor is a ready-to-run [Apify](https://apify.com?fpr=p2hrc6) worker — no scrapers to build, no proxies to manage, no blocks to fight.
